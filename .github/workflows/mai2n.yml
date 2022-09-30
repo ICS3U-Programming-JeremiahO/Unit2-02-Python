@@ -28,7 +28,10 @@ jobs:
 
 
 
-     
+
+
+
+
      - name: Run GitHub Super Linter
 
        uses: github/super-linter@main
@@ -52,4 +55,3 @@ jobs:
          DEFAULT_BRANCH: main
 
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
